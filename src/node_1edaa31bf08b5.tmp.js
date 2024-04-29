@@ -38,9 +38,7 @@ h1, h2 {
     justify-content: space-between;
     align-items: center;
     padding: px 60px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 10px;
+    margin: 40px;
 }
 
 /* cabecalho logo */
@@ -132,20 +130,15 @@ h1, h2 {
     flex-wrap: wrap;
     }
 
-}
-
-@media screen and (max-width: 400px) {
     .bloco-1 .informacoes {
         display: flex;
-        display: none;
         flex-direction: column;
         gap: 15px;
-        max-width: 90%;
-        margin-bottom: 20vh;
+        margin: 0px;
+        max-width: 0%;
     }
 }
-
-@media screen and (max-width: 2000px) {
+}
 .bloco-1 .informacoes {
     display: flex;
     flex-direction: column;
@@ -153,7 +146,7 @@ h1, h2 {
     margin: 0px;
     max-width: 50%;
 }
-}
+
 .bloco-1 .informacoes h1 {
     font-size: 32px;
     margin-bottom: 20px;
