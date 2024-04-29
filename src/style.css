@@ -74,6 +74,7 @@ h1, h2 {
     .cabecalho .titulo {
         user-select: none;
         display: none;
+        margin: 20px;
     }
 }
 .cabecalho .titulo {
@@ -134,18 +135,13 @@ h1, h2 {
 
 }
 
-@media screen and (max-width: 400px) {
-    .bloco-1 .informacoes {
-        display: flex;
-        display: none;
-        flex-direction: column;
-        gap: 15px;
-        max-width: 90%;
-        margin-bottom: 20vh;
+@media  screen and (min-width: 332px) and (max-width: 768px) {
+    .bloco-1 {
+        margin: 10vh;
     }
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 768px) and (max-width: 2000px) {
 .bloco-1 .informacoes {
     display: flex;
     flex-direction: column;
